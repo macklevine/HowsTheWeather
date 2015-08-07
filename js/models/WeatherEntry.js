@@ -1,11 +1,23 @@
 var WeatherEntry = Backbone.Model.extend({
-
   defaults: {
-    zipcode: '',
-    city: '',
-    weather: ''
+    'weather': '',
+    'city': '',
+    'zipcode': ''
   },
 
-  initialize: function() {},
+  convertToCelsius: function(){
+    //would perform the conversion
+  }
+})
 
-});
+// var WeatherEntry = Backbone.Model.extend({
+
+//   defaults: {
+//     zipcode: '',
+//     city: '',
+//     weather: ''
+//   },
+
+//   initialize: function() {},
+
+// });
